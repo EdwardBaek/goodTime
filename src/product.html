@@ -1,0 +1,147 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoodTime Co.</title>
+</head>
+<body>
+  <div id="loader-wrapper" class="loader-wrapper">
+    <div id="loader-area">
+      <div id="loader"></div>
+      <div id="loader-progress">
+        <span id="loader-progress-percentage">0%</span>
+        <div id="loader-progress-bar-wrapper">
+          <span id="loader-progress-bar"></span>
+        </div>
+      </div>
+    </div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div> 
+  <aside class="category-sidetap" id="category-sidetap">
+    <a href="#gas-firepit">gas firepit</a>
+    <a href="#wood-firepit">Wood firepit</a>
+    <a href="#grill-pizza-oven">grill&pizza oven</a>
+    <a href="#planter">planter</a>
+    <a href="#garden-arch">garden arch</a>
+    <a href="#garden-decoration">garden decoration</a>
+  </aside>
+
+  <header id="nav" class="header-product">
+    <h2><a href="./main.html" class="company-name">Good Time Industrial co.</a></h2>
+    <nav>
+      <li><a href="./product.html">Product</a></li>
+      <li><a href="mailto:GoodTimeDoris@gmail.com">Contact</a></li>
+    </nav>
+  </header>
+
+  <header id="nav-scroll" class="header-product invisible">
+    <h2><a href="./main.html" class="company-name">Good Time Industrial co.</a></h2>
+    <nav>
+      <li><a href="./product.html">Product</a></li>
+      <li><a href="mailto:GoodTimeDoris@gmail.com">Contact</a></li>
+    </nav>
+  </header>
+  
+  <div class="overlay" id="overlay"></div>
+  <div class="item-detail" id="item-detail">
+    <div class="modal-content">
+      <div class="modal-close" id="modal-close">
+        <button><i class="fa fa-times"></i></button>
+      </div>
+      <section class="item-detail-card" id="item-detail-card">
+        <div class="image-area">
+          <a href="javascript:void(0)" class="card">
+            <img js-src="{productImg}" alt="item">
+            <h3>{productName}</h3>
+          </a>
+        </div>
+        <div class="info-area">
+          <p>Material: {productMaterial}</p>
+          <p>Color: {productColor}</p>
+          <p>Sizes: {productSize}</p>
+          <p>Product code: {productCode}</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <div class="item-list">
+    <section id="gas-firepit" class="product-card">
+      <h3 class="title">Gas Fire Pit</h3>
+      <hr>
+      <div class="product-item">
+        <a  data-data="gas-firepit" data-id="{id}" class="card">
+          <img js-src="{productImg}" alt="item">
+          <h3>{productName}</h3>
+        </a>
+      </div>
+    </section>
+
+    <section id="wood-firepit" class="product-card">
+      <h3 class="title">Wood Fire Pit</h3>
+      <div class="product-item">
+        <a  data-data="wood-firepit" data-id="{id}" class="card">
+          <img js-src="{productImg}" alt="item">
+          <h3>{productName}</h3>
+        </a>
+      </div>
+    </section>
+
+    <section id="grill-pizza-oven" class="product-card">
+      <h3 class="title">grill&pizza oven</h3>
+      <hr>
+      <div class="product-item">
+        <a  data-data="grill-pizza-oven" data-id="{id}" class="card">
+          <img js-src="{productImg}" alt="item">
+          <h3>{productName}</h3>
+        </a>
+      </div>
+    </section>
+
+    <section id="planter" class="product-card">
+      <h3 class="title">planter</h3>
+      <hr>
+      <div class="product-item">
+        <a  data-data="planter" data-id="{id}" class="card">
+          <img js-src="{productImg}" alt="item">
+          <h3>{productName}</h3>
+        </a>
+      </div>
+    </section>
+
+    <section id="garden-arch" class="product-card">
+      <h3 class="title">garden arch</h3>
+      <hr>
+      <div class="product-item">
+        <a  data-data="garden-arch" data-id="{id}" class="card">
+          <img js-src="{productImg}" alt="item">
+          <h3>{productName}</h3>
+        </a>
+      </div>
+    </section>
+
+    <section id="garden-decoration" class="product-card">
+      <h3 class="title">garden decoration</h3>
+      <hr>
+      <div class="product-item">
+        <a   data-data="garden-decoration" data-id="{id}" class="card">
+          <img js-src="{productImg}" alt="item">
+          <h3>{productName}</h3>
+        </a>
+      </div>
+    </section>
+  </div>
+    
+  <footer>
+    <div class="info">
+      <p>@Copyright Good Time Industrial co.</p>
+    </div>
+    <div class="contact">
+      <a href="mailto:GoodTimeDoris@gmail.com" class="email"><i class="fa fa-envelope"></i>GoodTimeDoris@gmail.com</a>
+    </div>
+  </footer>
+
+</body>
+</html>

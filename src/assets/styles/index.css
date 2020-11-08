@@ -1,0 +1,82 @@
+
+html {
+  font-family: "Lato", Arial, Helvetica, sans-serif
+}
+body {
+  background-color: #f6f6f6;
+}
+
+section {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  background-color: #fff;
+}
+section .title {
+  text-transform: uppercase;
+}
+
+section hr {
+  width: 50%;
+}
+
+a.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 40px;
+  color: #777;
+  border: 1px solid #777;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+a.btn:hover {
+  transform: translate(0px, -2px);
+  box-shadow: 0px 3px 2px 0px #dfdfdf;
+}
+
+
+.card-container {
+ padding: 10px;
+}
+
+.card p {
+  color: #747474;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.support-browser .card {
+  display: inline-block;
+  margin: 15px;
+  min-width: 100px;
+}
+
+.support-browser .card i.browser {
+  width: 100%;
+  color: #495057;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.support-browser .card .info {
+  color: #adb5bd;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.support-browser .card .info i.color-support {
+  color: green;
+}
+.support-browser .card .info i.color-not-support {
+  color: red;
+}
+@media (max-width: 800px) {
+  .support-browser .card {
+    width: 44%;
+  }
+}
